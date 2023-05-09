@@ -27,10 +27,9 @@
     margin: auto;
   }
   
-#descripcion {
+#descripcion22 {
     position: absolute;
     top: 10px;
-    width: auto;
     max-width: 850px;
     margin-left: 350px;
     padding: 20px;
@@ -40,6 +39,19 @@
     margin-top: 5%;
     overflow: auto;
   }
+  #descripcion {
+    position: absolute;
+    top: 10px;
+    margin-left: 350px;
+    width: calc(50% - 350px);
+    max-width: 850px;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 4%;
+    margin-right: 5px;
+}
   
 #descripcion h2 {
     font-size: 1.5em;
@@ -49,9 +61,11 @@
 #descripcion p {
     font-size: 1.6em;
   }
+
 #descripcion1 p {
     font-size: 1.6em;
   }
+
 #descripcion1 h2 {
     font-size: 1.6em;
     margin-bottom: 10px;
@@ -60,19 +74,20 @@
 #descripcion2 p {
     font-size: 1.6em;
   }
+
 #descripcion2 h2 {
     font-size: 1.6em;
     margin-bottom: 10px;
   }
 
-
 #descripcion1 {
     background-color: #ccc;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-right: 15px;
     
-}
+    
+  }
   
 #descripcion2 {
     background-color: #ccc;
@@ -84,5 +99,5 @@
 
 #lista{
     font-size: 1.6em;
-}
+  }
   
